@@ -1,0 +1,256 @@
+@charset "utf-8";
+//변수
+$brand: #3a6f43;
+$brand2: #8eb486;
+$brown: #685752;
+$point: #cd5c08;
+$cream: #fff5e4;
+$white: #fff;
+
+$radius: 16px;
+$shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+//전체 레이아웃
+.wrap {
+    min-height: 100vh;
+}
+
+.container {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    background: $white;
+}
+
+/* header */
+header {
+    background: $white;
+}
+
+header .top-area {
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+}
+
+.top-area .logo {
+    a {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    img {
+        width: 54px;
+        margin-right: 20px;
+    }
+
+    //nth-child => 전체에서 몇 번째인지
+    //nth-of-type => 동일 요소 중 몇 번째인지
+    span {
+        &:nth-of-type(1) {
+            color: $brown;
+        }
+
+        &:nth-of-type(2) {
+            color: $brand;
+        }
+    }
+}
+
+/* gnb */
+.gnb {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: $brown;
+
+    a {
+        padding: 14px 22px;
+        color: $white;
+        font-weight: 600;
+
+        &.active {
+            background: $brand2;
+        }
+
+        &:last-child {
+            color: #ecc826;
+
+            &.active {
+                background: #ecc826;
+                color: $white;
+            }
+        }
+    }
+}
+
+/* contents */
+.contents {
+    background: $cream;
+    min-height: 65vh;
+}
+
+section {
+    padding: 44px 5%;
+
+    > h2 {
+        display: inline-block;
+        background: $point;
+        color: $cream;
+        border-radius: 30px;
+        padding: 8px 18px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+}
+
+/* heroslide */
+.hero-slide {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+    background: #ddd;
+
+    > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);;
+    width: 46px;
+    height: 54px;
+
+    border: 0;
+
+    &.prev {
+        left: 18px;
+    }
+
+    &.next {
+        right: 18px;
+    }
+
+    &:focus {
+        border: none;
+    }
+}
+
+.slide-dots {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);;
+    display: flex;
+    gap: 10px;
+
+    button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.6);
+
+        &.on {
+            width: 28px;
+            border-radius: 10px;
+            background: $white;
+        }
+    }
+}
+
+/* intro */
+.intro-text {
+    text-align: center;
+    margin-bottom: 46px;
+
+    h1 {
+        margin-bottom: 40px;
+        span {
+            display: block;
+
+            &:first-child {
+                font-size: 36px;
+                color: $brand;
+                margin-bottom: 10px;
+            }
+
+            &:last-child {
+                font-size: 20px;
+                color: $brown;
+                margin-bottom: 24px;
+            }
+        }
+
+        strong {
+            display: block;
+            color: $brand;
+            font-weight: 700;
+        }
+    }
+}
+
+.text {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+/* card */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.card {
+    overflow: hidden;
+    background: $white;
+    border-radius: $radius;
+    box-shadow: $shadow;
+
+    figure {
+        height: 320px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.card-text {
+    padding: 20px;
+
+    .info {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 14px;
+
+        span {
+            padding: 6px 10px;
+            border-radius: 10px;
+            background: #997c70;
+            color: $cream;
+            font-size: 14px;
+            
+            &:last-child {
+                background: $brand2;
+            }
+        }
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+}

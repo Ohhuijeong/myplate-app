@@ -1,0 +1,184 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "title": "닭가슴살 샐러드",
+      "desc": "신선한 채소와 단백질이 풍부한 닭가슴살을 곁들인 기본 다이어트 샐러드",
+      "calorie": 350,
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "tags": ["단백질", "저지방", "다이어트"],
+      "recommended": true
+    },
+    {
+      "id": 2,
+      "title": "귀리 오트밀",
+      "desc": "우유와 함께 끓인 귀리 오트밀에 블루베리와 아몬드를 곁들임",
+      "calorie": 280,
+      "image": "https://images.unsplash.com/photo-1644305660228-16b96b9f4be2?auto=format&fit=crop&w=800&q=80",
+      "tags": ["아침식사", "통곡물", "포만감"],
+      "recommended": true
+    },
+    {
+      "id": 3,
+      "title": "그릭 요거트 볼",
+      "desc": "그릭 요거트에 제철 과일과 그래놀라를 토핑한 가벼운 한 끼",
+      "calorie": 320,
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "tags": ["칼슘", "프로바이오틱스", "간식"],
+      "recommended": true
+    },
+    {
+      "id": 4,
+      "title": "두부 스테이크",
+      "desc": "겉은 바삭, 속은 촉촉한 두부 스테이크와 구운 채소",
+      "calorie": 400,
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+      "tags": ["식물성단백질", "채식", "저지방"],
+      "recommended": false
+    },
+    {
+      "id": 5,
+      "title": "채소 수프",
+      "desc": "토마토, 양파, 당근, 셀러리를 넣고 끓인 저칼로리 채소 수프",
+      "calorie": 150,
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80",
+      "tags": ["저칼로리", "디톡스", "포만감"],
+      "recommended": true
+    },
+    {
+      "id": 6,
+      "title": "연어 스테이크",
+      "desc": "오메가3가 풍부한 연어와 아스파라거스 구이",
+      "calorie": 450,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "tags": ["오메가3", "단백질", "에너지"],
+      "recommended": true
+    },
+    {
+      "id": 7,
+      "title": "병아리콩 샐러드",
+      "desc": "단백질과 섬유질이 풍부한 병아리콩과 채소 믹스 샐러드",
+      "calorie": 330,
+      "image": "https://images.unsplash.com/photo-1719196339826-c66c13ad5b86?auto=format&fit=crop&w=800&q=80",
+      "tags": ["비건", "단백질", "채소"],
+      "recommended": false
+    },
+    {
+      "id": 8,
+      "title": "퀴노아 채소 볶음",
+      "desc": "퀴노아와 브로콜리, 파프리카를 가볍게 볶아낸 한 그릇 요리",
+      "calorie": 370,
+      "image": "https://plus.unsplash.com/premium_photo-1682097645530-dc4d0b22c71f?auto=format&fit=crop&w=800&q=80",
+      "tags": ["슈퍼푸드", "통곡물", "비건"],
+      "recommended": true
+    },
+    {
+      "id": 9,
+      "title": "계란 오믈렛",
+      "desc": "계란과 시금치, 토마토를 넣어 만든 오믈렛",
+      "calorie": 290,
+      "image": "https://images.unsplash.com/photo-1587569906338-f79d500d7122?auto=format&fit=crop&w=800&q=80",
+      "tags": ["단백질", "아침식사", "간단식"],
+      "recommended": false
+    },
+    {
+      "id": 10,
+      "title": "토마토 파스타",
+      "desc": "통밀 파스타 면에 토마토 소스와 바질을 곁들인 건강 파스타",
+      "calorie": 420,
+      "image": "https://images.unsplash.com/photo-1625467150224-673f708dd8e8?q=80&w=1169?auto=format&fit=crop&w=800&q=80",
+      "tags": ["통곡물", "탄수화물", "에너지"],
+      "recommended": false
+    },
+    {
+      "id": 11,
+      "title": "렌틸콩 커리",
+      "desc": "렌틸콩과 각종 향신료로 만든 인도식 커리",
+      "calorie": 390,
+      "image": "https://images.unsplash.com/photo-1680359873815-f5300586dd8d?auto=format&fit=crop&w=800&q=80",
+      "tags": ["식물성단백질", "섬유질", "채식"],
+      "recommended": true
+    },
+    {
+      "id": 12,
+      "title": "고구마 구이",
+      "desc": "단맛이 나는 고구마를 오븐에 구워 만든 간식",
+      "calorie": 250,
+      "image": "https://images.unsplash.com/photo-1585443835125-d85820a16e89?auto=format&fit=crop&w=800&q=80",
+      "tags": ["자연간식", "탄수화물", "포만감"],
+      "recommended": true
+    },
+    {
+      "id": 13,
+      "title": "현미밥과 나물",
+      "desc": "현미밥에 시금치, 고사리, 콩나물 무침을 곁들인 전통 건강식",
+      "calorie": 410,
+      "image": "https://images.unsplash.com/photo-1651462104786-98240fd73b02?auto=format&fit=crop&w=800&q=80",
+      "tags": ["전통식", "통곡물", "채소"],
+      "recommended": false
+    },
+    {
+      "id": 14,
+      "title": "아보카도 토스트",
+      "desc": "통밀빵에 아보카도와 방울토마토를 올린 간단 아침식사",
+      "calorie": 300,
+      "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80",
+      "tags": ["건강지방", "아침식사", "간단식"],
+      "recommended": true
+    },
+    {
+      "id": 15,
+      "title": "버섯 리조또",
+      "desc": "버섯과 올리브유로 만든 크리미한 리조또",
+      "calorie": 480,
+      "image": "https://plus.unsplash.com/premium_photo-1695030934578-c489ecbcde26?auto=format&fit=crop&w=800&q=80",
+      "tags": ["탄수화물", "채소", "식이섬유"],
+      "recommended": false
+    },
+    {
+      "id": 16,
+      "title": "방울토마토 샐러드",
+      "desc": "올리브유와 발사믹으로 버무린 방울토마토와 루꼴라",
+      "calorie": 180,
+      "image": "https://i1.ruliweb.com/img/24/02/22/18dcdd5b0311cb92a.jpg",
+      "tags": ["저칼로리", "채소", "비타민"],
+      "recommended": true
+    },
+    {
+      "id": 17,
+      "title": "닭고기 죽",
+      "desc": "닭고기와 채소로 만든 부드러운 죽",
+      "calorie": 320,
+      "image": "https://images.unsplash.com/photo-1589534954619-ca628b1d54f9?auto=format&fit=crop&w=800&q=80",
+      "tags": ["회복식", "소화잘됨", "단백질"],
+      "recommended": false
+    },
+    {
+      "id": 18,
+      "title": "바나나 스무디",
+      "desc": "바나나와 두유, 시금치를 블렌딩한 스무디",
+      "calorie": 260,
+      "image": "https://m.health.chosun.com/site/data/img_dir/2023/08/28/2023082801172_0.jpg",
+      "tags": ["간편식", "비타민", "포만감"],
+      "recommended": true
+    },
+    {
+      "id": 19,
+      "title": "현미 채소김밥",
+      "desc": "현미밥과 각종 채소로 만든 가벼운 김밥",
+      "calorie": 350,
+      "image": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0017/B00000017417301ko.jpg?qt=80",
+      "tags": ["전통식", "채소", "간편식"],
+      "recommended": true
+    },
+    {
+      "id": 20,
+      "title": "과일 플래터",
+      "desc": "제철 과일을 다양하게 담아낸 플래터",
+      "calorie": 200,
+      "image": "https://images.unsplash.com/photo-1600850056243-2826d4db4bd8?auto=format&fit=crop&w=800&q=80",
+      "tags": ["비타민", "간식", "수분보충"],
+      "recommended": false
+    }
+  ]
+}
